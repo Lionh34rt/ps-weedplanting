@@ -10,7 +10,7 @@ Config = {
     MaleSeed = 'weedplant_seedm',
     FemaleSeed = 'weedplant_seedf',
     FertilizerItem = 'weed_nutrition',
-    WaterItem = 'water',
+    WaterItem = 'water_bottle',
     BranchItem = 'weedplant_branch',
     WeedItem = 'weedplant_weed',
     PackedWeedItem = 'weedplant_packedweed',
@@ -40,7 +40,8 @@ Config = {
     },
 
     --- Growing Related Settings
-    rayCastingDistance = 7.0, -- distance in meters
+    SpawnRadius = 75.0, -- radius for which to spawn plants in
+    rayCastingDistance = 10.0, -- distance in meters
     ClearOnStartup = true, -- Clear dead plants on script start-up
     ObjectZOffset = - 0.5, -- Z-coord offset for WeedProps
     FireTime = 10000, -- Time in milliseconds
